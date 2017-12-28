@@ -1,0 +1,12 @@
+PODS:
+  - HGBaseClass (1.0.0)
+
+DEPENDENCIES:
+  - HGBaseClass
+
+SPEC CHECKSUMS:
+  HGBaseClass: c88f3c1ffbf792664f0a01bfee2150b0dc2af77d
+
+PODFILE CHECKSUM: 9ddd9a2b08496ca1798bfa022da253793fcfd72d
+
+COCOAPODS: 1.2.0
