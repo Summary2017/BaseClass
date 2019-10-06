@@ -12,7 +12,7 @@
 
 
 /** 快速获取cell */
-+ (instancetype)cell:(UITableView*)tableView {
++ (instancetype)cellWithTableView:(UITableView*)tableView {
     NSString* ID = NSStringFromClass(self);
     HGCell* cell = [tableView dequeueReusableCellWithIdentifier:ID];
     
@@ -25,7 +25,7 @@
 }
 
 /** 快速获取cell */
-+ (instancetype)xibCell:(UITableView*)tableView {
++ (instancetype)xibCellWithTableView:(UITableView*)tableView {
     NSString* ID = NSStringFromClass(self);
     HGCell* cell = [tableView dequeueReusableCellWithIdentifier:ID];
     

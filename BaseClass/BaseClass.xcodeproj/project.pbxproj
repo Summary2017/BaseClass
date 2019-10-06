@@ -17,8 +17,8 @@
 		5142B99C1FF4B51100D904CB /* HGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9921FF4B51100D904CB /* HGCell.m */; };
 		5142B99D1FF4B51100D904CB /* HGCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9941FF4B51100D904CB /* HGCommon.m */; };
 		5142B99E1FF4B51100D904CB /* HGHFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9961FF4B51100D904CB /* HGHFView.m */; };
-		5142B99F1FF4B51100D904CB /* HGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9981FF4B51100D904CB /* HGModel.m */; };
 		5142B9A01FF4B51100D904CB /* HGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B99A1FF4B51100D904CB /* HGView.m */; };
+		516C1EF4234A3BB9002BF911 /* HGCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 516C1EF3234A3BB9002BF911 /* HGCVCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		5142B9941FF4B51100D904CB /* HGCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCommon.m; sourceTree = "<group>"; };
 		5142B9951FF4B51100D904CB /* HGHFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGHFView.h; sourceTree = "<group>"; };
 		5142B9961FF4B51100D904CB /* HGHFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGHFView.m; sourceTree = "<group>"; };
-		5142B9971FF4B51100D904CB /* HGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGModel.h; sourceTree = "<group>"; };
-		5142B9981FF4B51100D904CB /* HGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGModel.m; sourceTree = "<group>"; };
 		5142B9991FF4B51100D904CB /* HGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGView.h; sourceTree = "<group>"; };
 		5142B99A1FF4B51100D904CB /* HGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGView.m; sourceTree = "<group>"; };
+		516C1EF2234A3BB9002BF911 /* HGCVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGCVCell.h; sourceTree = "<group>"; };
+		516C1EF3234A3BB9002BF911 /* HGCVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGCVCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 				5142B9941FF4B51100D904CB /* HGCommon.m */,
 				5142B9951FF4B51100D904CB /* HGHFView.h */,
 				5142B9961FF4B51100D904CB /* HGHFView.m */,
-				5142B9971FF4B51100D904CB /* HGModel.h */,
-				5142B9981FF4B51100D904CB /* HGModel.m */,
 				5142B9991FF4B51100D904CB /* HGView.h */,
 				5142B99A1FF4B51100D904CB /* HGView.m */,
+				516C1EF2234A3BB9002BF911 /* HGCVCell.h */,
+				516C1EF3234A3BB9002BF911 /* HGCVCell.m */,
 			);
 			name = HGBaseClass;
 			path = ../../HGBaseClass;
@@ -184,9 +184,9 @@
 				5142B99B1FF4B51100D904CB /* HGButton.m in Sources */,
 				5142B97D1FF4B4E400D904CB /* ViewController.m in Sources */,
 				5142B9A01FF4B51100D904CB /* HGView.m in Sources */,
+				516C1EF4234A3BB9002BF911 /* HGCVCell.m in Sources */,
 				5142B99E1FF4B51100D904CB /* HGHFView.m in Sources */,
 				5142B9881FF4B4E400D904CB /* main.m in Sources */,
-				5142B99F1FF4B51100D904CB /* HGModel.m in Sources */,
 				5142B99C1FF4B51100D904CB /* HGCell.m in Sources */,
 				5142B97A1FF4B4E400D904CB /* AppDelegate.m in Sources */,
 				5142B99D1FF4B51100D904CB /* HGCommon.m in Sources */,

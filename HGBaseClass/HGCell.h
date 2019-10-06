@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+/// 内部已考虑重用机制
 @interface HGCell : UITableViewCell
 
 /**
@@ -16,7 +17,7 @@
  @param tableView 当前表视图视图
  @return 返回Cell
  */
-+ (instancetype)cell:(UITableView*)tableView;
++ (instancetype)cellWithTableView:(UITableView*)tableView;
 
 /**
  返回一个Cell实例, 通常用于XIB
@@ -24,7 +25,7 @@
  @param tableView 当前表视图视图
  @return 返回Cell
  */
-+ (instancetype)xibCell:(UITableView*)tableView;
++ (instancetype)xibCellWithTableView:(UITableView*)tableView;
 
 /**
  返回一个空白Cell, 主要用于占位Cell

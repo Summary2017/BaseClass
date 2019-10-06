@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+/// 内部已考虑重用机制
 @interface HGHFView : UITableViewHeaderFooterView
 
 /**

@@ -1,2 +1,3 @@
-# BaseClass
-基类
+## 常用基类实现
+
+![HGBaseClass](./Resources/HGBaseClass.png)

@@ -10,11 +10,7 @@
 
 @implementation HGView
 
-
-+ (instancetype)view {
-    return [[self alloc] init];
-}
-
+/// 获取一个xib关联的对象（保证xib文件名与类名一致）
 + (instancetype)xibView {
     NSString* nibName = NSStringFromClass(self);
     
